@@ -9,8 +9,8 @@ public class AccountOperationsImpl implements IAccountOperations {
     }
 
     @Override
-    public void withdraw(double amount) {
-
+    public void withdraw(Account account, double amount) {
+        account.setBalance(account.getBalance() - amount);
     }
 
     @Override
