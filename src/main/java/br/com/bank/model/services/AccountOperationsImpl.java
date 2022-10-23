@@ -14,7 +14,8 @@ public class AccountOperationsImpl implements IAccountOperations {
     }
 
     @Override
-    public void transfer(Account account, double amount) {
-
+    public void transfer(Account account, double amount, Account other) {
+        account.setBalance(account.getBalance() - amount);
+        other.setBalance(other.getBalance() + amount);
     }
 }
