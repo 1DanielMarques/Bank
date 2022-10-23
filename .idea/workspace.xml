@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="creating Account class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Holder.java" afterDir="false" />
+    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="Holder class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/IAccountOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666476107706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Holder class">
+      <created>1666476265780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666476265780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first project model" />
     <MESSAGE value="creating Account class" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Account class" />
+    <MESSAGE value="Holder class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Holder class" />
   </component>
 </project>
