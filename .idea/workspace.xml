@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="withdraw method with setBalance">
+    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="transfer method with setBalance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/AccountOperationsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/AccountOperationsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/IAccountOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/IAccountOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666544632781</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="transfer method with setBalance">
+      <created>1666544716504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666544716504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +120,7 @@
     <MESSAGE value="IAccountOperations interface" />
     <MESSAGE value="deposit method with setBalance" />
     <MESSAGE value="withdraw method with setBalance" />
-    <option name="LAST_COMMIT_MESSAGE" value="withdraw method with setBalance" />
+    <MESSAGE value="transfer method with setBalance" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfer method with setBalance" />
   </component>
 </project>
