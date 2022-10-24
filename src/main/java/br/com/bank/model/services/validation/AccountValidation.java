@@ -2,10 +2,14 @@ package br.com.bank.model.services.validation;
 
 import br.com.bank.model.entities.Account;
 
-public class AccountValidation implements IValidation{
+public class AccountValidation implements IValidation {
     @Override
     public boolean isDepositValid(double amount) {
-        return false;
+        if (amount <= 0) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
