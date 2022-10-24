@@ -36,16 +36,28 @@ public class Account {
         this.balance = balance;
     }
 
+    // Should I create my own exception?
     public void deposit(double amount) {
-
-        operations.deposit(this, amount);
+        if (validation.isDepositValid(amount)) {
+            operations.deposit(this, amount);
+        } else {
+            throw new IllegalArgumentException("Invalid amount!");
+        }
     }
 
     public void withdraw(double amount) {
-        operations.withdraw(this, amount);
+        if (validation.isWithdrawValid(this, amount)) {
+            operations.withdraw(this, amount);
+        } else {
+            throw new IllegalArgumentException("Invalid amount!");
+        }
     }
 
     public void transfer(double amount, Account other) {
-        operations.transfer(this, amount, other);
+        if (validation.isTransferValid(this, amount, other)) {
+            operations.transfer(this, amount, other);
+        } else {
+            throw new IllegalArgumentException("Invalid amount!");
+        }
     }
 }
