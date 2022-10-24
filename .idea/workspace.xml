@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="transfer method with setBalance">
+    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="Implementing operation methods in Account">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/Validation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666544716504</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementing operation methods in Account">
+      <created>1666544882449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666544882449</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +129,7 @@
     <MESSAGE value="deposit method with setBalance" />
     <MESSAGE value="withdraw method with setBalance" />
     <MESSAGE value="transfer method with setBalance" />
-    <option name="LAST_COMMIT_MESSAGE" value="transfer method with setBalance" />
+    <MESSAGE value="Implementing operation methods in Account" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing operation methods in Account" />
   </component>
 </project>

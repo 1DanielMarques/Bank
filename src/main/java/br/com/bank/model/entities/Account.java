@@ -31,12 +31,12 @@ public class Account {
         this.balance = balance;
     }
 
-    public void deposit(Account account, double amount) {
-        operations.deposit(account, amount);
+    public void deposit(double amount) {
+        operations.deposit(this, amount);
     }
 
-    public void withdraw(Account account, double amount) {
-        operations.withdraw(account, amount);
+    public void withdraw(double amount) {
+        operations.withdraw(this, amount);
     }
 
     public void transfer(double amount, Account other) {
