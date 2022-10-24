@@ -1,6 +1,9 @@
 package br.com.bank.model.entities;
 
-import br.com.bank.model.services.IAccountOperations;
+import br.com.bank.model.services.operations.AccountOperationsImpl;
+import br.com.bank.model.services.operations.IAccountOperations;
+import br.com.bank.model.services.validation.AccountValidation;
+import br.com.bank.model.services.validation.IValidation;
 
 public class Account {
 
@@ -8,11 +11,13 @@ public class Account {
     private double balance;
 
     private IAccountOperations operations;
+    private IValidation validation;
 
-    public Account(int number, double balance, IAccountOperations operations) {
+    public Account(int number, double balance) {
         this.number = number;
         this.balance = balance;
-        this.operations = operations;
+        this.operations = new AccountOperationsImpl();
+        this.validation = new AccountValidation();
     }
 
     public int getNumber() {
@@ -32,6 +37,7 @@ public class Account {
     }
 
     public void deposit(double amount) {
+
         operations.deposit(this, amount);
     }
 

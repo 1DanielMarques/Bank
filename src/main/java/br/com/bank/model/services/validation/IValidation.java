@@ -1,4 +1,4 @@
-package br.com.bank.model.services;
+package br.com.bank.model.services.validation;
 
 import br.com.bank.model.entities.Account;
 
