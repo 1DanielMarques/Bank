@@ -8,7 +8,7 @@ public interface IValidation {
 
     boolean isWithdrawValid(Account account, double amount);
 
-    boolean isTransferValid(Account origin, double amount, Account destiny);
+    boolean isTransferValid(Account origin, double amount);
 
 
 }

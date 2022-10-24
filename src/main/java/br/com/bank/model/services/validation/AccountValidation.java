@@ -14,15 +14,19 @@ public class AccountValidation implements IValidation {
 
     @Override
     public boolean isWithdrawValid(Account account, double amount) {
-        if(amount > 0 && amount < account.getBalance()){
+        if (amount > 0 && amount < account.getBalance()) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }
 
     @Override
-    public boolean isTransferValid(Account origin, double amount, Account destiny) {
-        return false;
+    public boolean isTransferValid(Account origin, double amount) {
+        if (amount > 0 && amount <= (origin.getBalance() * 0.5)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

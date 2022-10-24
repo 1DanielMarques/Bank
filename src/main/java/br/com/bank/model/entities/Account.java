@@ -54,7 +54,7 @@ public class Account {
     }
 
     public void transfer(double amount, Account other) {
-        if (validation.isTransferValid(this, amount, other)) {
+        if (validation.isTransferValid(this, amount)) {
             operations.transfer(this, amount, other);
         } else {
             throw new IllegalArgumentException("Invalid amount!");

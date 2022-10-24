@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="changing dependency injection by constructor/AccountValidation">
+    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="isWithdrawValid method implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/AccountValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/AccountValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/IValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/IValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666643381991</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implementing validations in Account methods">
+      <created>1666643596991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666643596991</updated>
+    </task>
+    <task id="LOCAL-00012" summary="isDepositValid method implementation">
+      <created>1666643702194</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666643702194</updated>
+    </task>
+    <task id="LOCAL-00013" summary="isWithdrawValid method implementation">
+      <created>1666643804384</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666643804384</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +168,9 @@
     <MESSAGE value="Implementing operation methods in Account" />
     <MESSAGE value="interface IValidation" />
     <MESSAGE value="changing dependency injection by constructor/AccountValidation" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing dependency injection by constructor/AccountValidation" />
+    <MESSAGE value="implementing validations in Account methods" />
+    <MESSAGE value="isDepositValid method implementation" />
+    <MESSAGE value="isWithdrawValid method implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="isWithdrawValid method implementation" />
   </component>
 </project>
