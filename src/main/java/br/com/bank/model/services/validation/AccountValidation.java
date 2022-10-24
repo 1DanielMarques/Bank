@@ -5,16 +5,20 @@ import br.com.bank.model.entities.Account;
 public class AccountValidation implements IValidation {
     @Override
     public boolean isDepositValid(double amount) {
-        if (amount <= 0) {
-            return false;
-        } else {
+        if (amount > 0) {
             return true;
+        } else {
+            return false;
         }
     }
 
     @Override
     public boolean isWithdrawValid(Account account, double amount) {
-        return false;
+        if(amount > 0 && amount < account.getBalance()){
+            return true;
+        }else {
+            return false;
+        }
     }
 
     @Override
