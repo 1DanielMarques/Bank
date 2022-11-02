@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="isWithdrawValid method implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/entities/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/AccountValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/AccountValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/IValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bank/model/services/validation/IValidation.java" afterDir="false" />
-    </list>
+    <list default="true" id="2aadc14d-d3c3-4ae8-880d-6ba5f97cc0b2" name="Changes" comment="isTransferValid method implementation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666643804384</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="isTransferValid method implementation">
+      <created>1666643959959</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666643959959</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +173,7 @@
     <MESSAGE value="implementing validations in Account methods" />
     <MESSAGE value="isDepositValid method implementation" />
     <MESSAGE value="isWithdrawValid method implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="isWithdrawValid method implementation" />
+    <MESSAGE value="isTransferValid method implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="isTransferValid method implementation" />
   </component>
 </project>
